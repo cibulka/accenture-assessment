@@ -28,7 +28,7 @@ export function HamburgerMenu() {
           "unoptimized:hidden",
         ].join(" ")}
       >
-        <Hamburger toggled={open} toggle={setOpen} />
+        <Hamburger label="Menu" toggled={open} toggle={setOpen} />
       </span>
       <Dialog open={open} onClose={() => setOpen(false)} className="relative z-40">
         <div className="fixed inset-0 bg-black opacity-80" />

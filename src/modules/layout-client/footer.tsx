@@ -21,7 +21,7 @@ export function Footer() {
 
   return (
     <footer className={["flex items-center justify-between gap-4 h-14", "-mb-4"].join(" ")}>
-      <a href="https://www.cibulka.codes" target="_blank" className="flex w-8 h-8">
+      <a href="https://www.cibulka.codes" target="_blank" className="flex w-8 h-8" title="www.cibulka.codes">
         <IconOnion className="fill-green" />
       </a>
       {next ? (
