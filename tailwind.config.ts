@@ -12,9 +12,6 @@ const config: Config = {
         green: "var(--color-green)",
         "green-dark": "var(--color-green-dark)",
       },
-      screens: {
-        unoptimized: { raw: "(max-height: 767px), (max-width: 767px)" },
-      },
     },
   },
   plugins: [],

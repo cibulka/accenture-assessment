@@ -9,11 +9,11 @@ export function ResponsiveBlock() {
     <div
       aria-hidden
       className={[
-        "hidden unoptimized:flex",
         "fixed inset-0 z-60",
-        "flex-col items-center justify-center gap-6",
+        "flex flex-col items-center justify-center gap-6",
         "bg-slate-600",
         "px-8",
+        "md:hidden",
       ].join(" ")}
     >
       <h1 className="text-5xl">Oh no!</h1>

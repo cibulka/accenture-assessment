@@ -23,27 +23,15 @@ export function HamburgerMenu() {
           "fixed z-50 right-12 top-12",
           "rounded-full",
           "w-20 h-20",
-          "flex items-center justify-center",
+          "hidden md:flex",
+          "items-center justify-center",
           "bg-green text-black",
-          "unoptimized:hidden",
         ].join(" ")}
       >
         <Hamburger label="Menu" toggled={open} toggle={setOpen} />
       </span>
       <Dialog open={open} onClose={() => setOpen(false)} className="relative z-40">
         <div className="fixed inset-0 bg-black opacity-80" />
-        <span
-          className={[
-            "fixed z-50 right-12 top-12",
-            "rounded-full",
-            "w-20 h-20",
-            "flex items-center justify-center",
-            "bg-green text-black",
-            "unoptimized:hidden",
-          ].join(" ")}
-        >
-          <Hamburger toggled={open} toggle={setOpen} />
-        </span>
         <DialogPanel
           className={["fixed top-0 right-0 bg-black", "h-full", "flex flex-col items-center px-8"].join(" ")}
           style={{ width: "20em", maxWidth: "calc(100vw - 4em)" }}

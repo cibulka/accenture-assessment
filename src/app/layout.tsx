@@ -4,7 +4,6 @@ import { Rubik } from "next/font/google";
 import { LayoutClient } from "@/modules/layout-client";
 
 import "./globals.css";
-import { ResponsiveBlock } from "./responsive-block";
 
 const rubik = Rubik({ subsets: ["latin"] });
 
@@ -30,7 +29,6 @@ export default function RootLayout({
         ].join(" ")}
       >
         <LayoutClient>{children}</LayoutClient>
-        <ResponsiveBlock />
       </body>
     </html>
   );
