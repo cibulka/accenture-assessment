@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.5",
-    "accenture-assessment-components": "0.0.7",
+    "accenture-assessment-components": "0.0.8",
     "hamburger-react": "^2.5.1",
     "next": "14.2.7",
     "react": "^18",
