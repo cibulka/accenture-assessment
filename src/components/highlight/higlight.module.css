@@ -1,0 +1,4 @@
+.root {
+  background: rgba(75, 109, 91, 0.5);
+  @apply p-1;
+}
