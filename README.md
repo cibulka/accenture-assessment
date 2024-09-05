@@ -28,9 +28,7 @@
 
 This is the brief:
 
-```
-The goal of this task is to evaluate your approach to expanding and innovating an existing design system to accommodate multiple front-end platforms: mobile, desktop, in-car HMI, smart home devices, and wearables. You will describe your strategy for adapting the current component library to ensure consistency, usability, and innovation across all platforms.
-```
+> The goal of this task is to evaluate your approach to expanding and innovating an existing design system to accommodate multiple front-end platforms: mobile, desktop, in-car HMI, smart home devices, and wearables. You will describe your strategy for adapting the current component library to ensure consistency, usability, and innovation across all platforms.
 
 Here is my presentation: [accenture.cibulka.codes](https://accenture.cibulka.codes).
 
