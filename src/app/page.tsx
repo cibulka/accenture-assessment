@@ -19,7 +19,7 @@ export default function Home() {
           </p>
         </div>
         <div className={["relative bg-slate-400", "rounded-md overflow-hidden", "col-span-2 opacity-50"].join(" ")}>
-          <Image alt="" src="/swiss.png" style={{ objectFit: "cover" }} fill />
+          <Image alt="" src="/swiss.png" style={{ objectFit: "cover" }} fill priority />
         </div>
       </div>
       <div className="flex-1" />

@@ -49,7 +49,7 @@ export default function PrototypePage() {
             className={["relative aspect-square", "bg-slate-400 rounded-md overflow-hidden"].join(" ")}
             style={{ filter: "grayscale(80%)" }}
           >
-            <Image alt="My photo" src="/petr-small.jpg" fill style={{ objectFit: "cover" }} />
+            <Image alt="My photo" src="/petr-small.jpg" fill style={{ objectFit: "cover" }} priority />
           </div>
         </div>
       </div>
