@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import { Rubik } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import { LayoutClient } from "@/modules/layout-client";
+
+import "./globals.css";
+import { ResponsiveBlock } from "./responsive-block";
+
+const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +20,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={[
+          rubik.className,
+          "flex flex-col items-center justify-center",
+          "min-h-screen",
+          "sm:p-4",
+          "bg-slate-800 text-slate-200",
+        ].join(" ")}
+      >
+        <LayoutClient>{children}</LayoutClient>
+        <ResponsiveBlock />
+      </body>
     </html>
   );
 }
