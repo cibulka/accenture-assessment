@@ -12,7 +12,7 @@ export default function PrototypePage() {
         <div className="col-span-4">
           <p className="text-2xl leading-normal">
             Our solution needs to cater to a wide range of devices with diverse user experiences and accessibility
-            needs, while remain cohesive and scalable. To ensure we're on the right track, rapid prototyping is
+            needs, while remain cohesive and scalable. To ensure we{`'`}re on the right track, rapid prototyping is
             essential.
           </p>
         </div>
@@ -36,8 +36,7 @@ export default function PrototypePage() {
           }}
           title="Development"
           icon={IconCode}
-          content="Showcase interactivity of the components in all their variants. Offer automatic documentation and coding
-            examples."
+          content="Showcase interactivity of the components in all their variants. Offer automatic documentation and coding examples."
         />
 
         <LinkItem

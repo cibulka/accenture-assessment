@@ -14,7 +14,7 @@ type AccordionProps = {
 export function Accordion({ initiallyActive, items }: AccordionProps) {
   const [activeIndex, setActiveIndex] = useState(initiallyActive);
 
-  const itemsIndexed = useMemo(() => items.map((item, index) => ({ ...item, index })), []);
+  const itemsIndexed = useMemo(() => items.map((item, index) => ({ ...item, index })), [items]);
 
   return (
     <ul className="max-w-md">
